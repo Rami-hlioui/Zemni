@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.heroe {
+  width: 1340px;
+  height: 100%;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 50px;
+  background: white;
+  box-shadow: 0px 3px 50px 3px rgba(0, 0, 0, 0.3);
+}
+
+.navy ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav a {
+  color: black;
+}
+.nav a:hover {
+  color: #b1b1b1;
+}
+.navy {
+  display: flex;
+  align-items: center;
+}
+.navy ul li.link {
+  margin-top: 65px;
+}
+.navy ul li.logo {
+  margin-top: 41px;
+  margin-left: 50px;
+}
+
+.green {
+  color: rgb(15, 207, 143);
+  font-weight: 680;
+}
+
+@media (max-width: 567px) {
+  .mobile {
+    padding-top: 40px;
+  }
+}
+#btn {
+  background: #ffe8d3;
+  border-radius: 33px;
+  border: none;
+  color: black;
+}
+.cash {
+  height: 30px;
+  width: 30px;
+}
+#collapseExample img {
+  margin: 0px 20px 0px 20px;
+}
+.cards {
+  height: 21px;
+  width: 39px;
+}
+#lalala1 {
+  width: 150px;
+}
+
+#lalala {
+  width: 50px;
+}
+#azerty {
+  margin-bottom: 100px;
+  border-radius: 6%;
+  margin-right: 90px;
+}

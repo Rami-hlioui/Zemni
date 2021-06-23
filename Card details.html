@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Cards</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div class="container-fluid px-1 px-md-2 px-lg-4 py-5 mx-auto">
+
+
+      
+          <div id="drop-area">
+            <form class="my-form"> 
+              <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+              <label class="button text-center "for="fileElem">  
+                <p>  <img src="Vector.png"> drop your images here</p>
+              </label>
+            </form>
+            <div id="gallery" class="text-center"></div>
+          </div>  
+      
+          
+
+
+        <script>
+            let dropArea = document.getElementById('drop-area')
+
+            ;['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, preventDefaults, false)
+            })
+
+            function preventDefaults (e) {
+            e.preventDefault()
+            e.stopPropagation()
+            }
+
+            ;['dragenter', 'dragover'].forEach(eventName => {
+             dropArea.addEventListener(eventName, highlight, false)
+             })
+
+             ;['dragleave', 'drop'].forEach(eventName => {
+             dropArea.addEventListener(eventName, unhighlight, false)
+             })
+
+             function highlight(e) {
+             dropArea.classList.add('highlight')
+            }
+
+            function unhighlight(e) {
+            dropArea.classList.remove('highlight')
+            }
+            dropArea.addEventListener('drop', handleDrop, false)
+
+            function handleDrop(e) {
+            let dt = e.dataTransfer
+            let files = dt.files
+
+            handleFiles(files)
+            }
+            function handleFiles(files) {
+              ([...files]).forEach(uploadFile)
+            }
+             function uploadFile(file) {
+            let url = 'YOUR URL HERE'
+            let formData = new FormData()
+
+             formData.append('file', file)
+
+             fetch(url, {
+             method: 'POST',
+             body: formData
+             })
+             .then(() => { /* Done. Inform the user */ })
+             .catch(() => { /* Error. Inform the user */ })
+             }
+             function uploadFile(file) {
+              var url = 'YOUR URL HERE'
+             var xhr = new XMLHttpRequest()
+             var formData = new FormData()
+             xhr.open('POST', url, true)
+             xhr.addEventListener('readystatechange', function(e) {
+             if (xhr.readyState == 4 && xhr.status == 200) {}
+             else if (xhr.readyState == 4 && xhr.status != 200) {
+             // Error. Inform the user
+             }
+             })
+
+             formData.append('file', file)
+             xhr.send(formData)
+            }
+             function previewFile(file) {
+             let reader = new FileReader()
+             reader.readAsDataURL(file)
+             reader.onloadend = function() {
+             let img = document.createElement('img')
+             img.src = reader.result
+             document.getElementById('gallery').appendChild(img)
+  }
+}
+function handleFiles(files) {
+  files = [...files]
+  files.forEach(uploadFile)
+  files.forEach(previewFile)
+}
+</script>  
+          
+    
+</body>
+</html>

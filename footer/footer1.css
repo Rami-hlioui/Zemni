@@ -1,0 +1,178 @@
+footer {
+  width: 1440px;
+  height: 500px;
+  left: 0px;
+  top: 2000px;
+  background: #f8efe7;
+  font-family: "Montserrat", sans-serif;
+}
+.zemni {
+  width: 302px;
+  height: 60px;
+  left: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+.insta {
+  position: absolute;
+  left: 6.11%;
+  right: 91.94%;
+  top: 171px;
+  bottom: 4.52%;
+}
+.instagram {
+  position: absolute;
+  width: 94px;
+  height: 22px;
+  left: 130px;
+  top: 176px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.fb {
+  position: absolute;
+  left: 6.11%;
+  right: 91.94%;
+  top: 212px;
+  bottom: 4.52%;
+}
+.facebook {
+  position: absolute;
+  width: 89px;
+  height: 22px;
+  left: 130px;
+  top: 217px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.tw {
+  position: absolute;
+  left: 6.11%;
+  right: 1.97%;
+  top: 260px;
+  bottom: 13.5%;
+}
+.twitter {
+  position: absolute;
+  width: 63px;
+  height: 22px;
+  left: 130px;
+  top: 265px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.contact {
+  position: absolute;
+  width: 96px;
+  height: 29px;
+  left: 84px;
+  top: 400px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+.messenger {
+  position: absolute;
+  left: 84px;
+  top: 450px;
+  bottom: 1.39%;
+}
+.whatsapp {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 120px;
+  top: 445px;
+}
+.e-mail {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 162px;
+  top: 448px;
+}
+.infoo {
+  position: absolute;
+  width: 158px;
+  height: 22px;
+  left: 200px;
+  top: 454px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.copy-right {
+  position: absolute;
+  width: 250px;
+  height: 22px;
+  left: 600px;
+  top: 454px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.helpp {
+  position: absolute;
+  width: 158px;
+  height: 22px;
+  left: 1100px;
+  top: 454px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.about {
+  position: absolute;
+  width: 565px;
+  height: 159px;
+  left: 600px;
+  top: 150px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.aboutt {
+  font-weight: bold;
+  font-size: 20px;
+}

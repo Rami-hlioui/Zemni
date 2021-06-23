@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html id="my-scrollbar" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" href="/ba0ec0c3cad0feb0d4740a544d29273c.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer2.css">
+    <link rel="stylesheet" href="singin.css">
+    
+    <link rel="stylesheet" href="landingpage.css" /><link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+
+
+
+    <title>Zemni</title>
+  </head>
+  <body >
+   
+      <nav
+        class="navbar navbar-icon-top navbar-expand-lg navbar-light fixed offset-md-1 text-dark"
+      >
+        <a class="navbar-brand" href="#">ZEMNI</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="z-index: auto;">
+                <li><a class="dropdown-item" href="/Category-painting.html">Paintings</a></li>
+                <li><a class="dropdown-item" href="/category-food.html">Food</a></li>
+                <li><a class="dropdown-item" href="/category-clothes.html">clothes</a></li>
+                <li><a class="dropdown-item" href="/category-pottery.html">pottery</a></li>
+                <li><a class="dropdown-item" href="/category-decoration.html">Decorations</a></li>
+                <li><a class="dropdown-item" href="/category-accessories.html">Acessories</a></li> 
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#new-products"> New in </a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="sell.html"><img id="sell-icon" src="/navbar.images/iconmonstr-shopping-bag-10 2.svg"> Sell </a>
+            </li>
+          </ul>
+          <ul id="navul" class="navbar-nav initial-scale">
+            <li  class="nav-item mt-3">
+            <input id="search-input" placeholder="search" type="text">
+            </li>
+            <li  class="nav-item mt-3">
+              
+              <a class="nav-link" href="#"><img id="navsearch" src="/navbar.images/iconmonstr-magnifier-4 2.svg"></img> </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#"><a class="nav-link" href="/pay.html"><img src="/navbar.images/carbon_shopping-cart.svg"></img> </a></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><a class="nav-link" href="#"><img src="/navbar.images/line-md_account.svg"></img> </a></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <div class="home-section" style="overflow-x: hidden;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="content text-center" style="text-shadow: black;">
+              <h1>ZEMNI</h1>
+              <p>ZEMNI your artisinal marketplace in which you can buy AND sell traditional products ! </p>
+             
+              <button type="button" id="login-button" class=" shadow p-3 mb-5  ">Login</button>
+              <button type="button" class=" shadow p-3 mb-5">Buy now</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="logo-img">
+              <img class="rounded mx-auto d-block " src="/ba0ec0c3cad0feb0d4740a544d29273c.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+ 
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide mb-5 mt-5""
+      data-bs-ride="carousel"
+      style=" overflow-x: hidden;"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner position-relative">
+        <div class="carousel-item active">
+          <div class="row">
+            <img
+              id="img-slide1"
+              src="/image-slide/Rectangle 9.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-none d-md-block text-dark text-start  col-7"
+            >
+              <div id="carousel-item-text">
+                <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              
+              <button type="button" class="btn btn-outline-secondary">Buy now</button>
+              <button type="button" class="btn btn-outline-secondary"><a href="/Category-painting.html">View Category</a></button>
+              </div>
+              
+            </div>
+            <div class="col-5">
+              <img
+                id="doura1"
+                class="position-absolute"
+                src="/image-slide/Ellipse 1.svg"
+              />
+              <img id="line1" class="position-absolute" src="/image-slide/Line 1.jpg"/>
+              <img id="product-img-slide1" src="/image-slide/65fbfeec9ce2672f5f433ace3aae5d3d 1 (1).png" />
+  
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+              id="img-slide1"
+              src="/image-slide/Rectangle 9.png"
+              class="d-block w-100"
+              alt="..."
+            /> 
+            <div
+              class="carousel-caption d-none d-md-block text-dark text-start  col-7"
+            >
+              <div id="carousel-item-text2">
+                <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              
+              <button type="button" class="btn btn-outline-secondary">Buy now</button>
+              <button type="button" class="btn btn-outline-secondary"><a href="/category-pottery.html">View Category</a></button>
+              </div>
+              
+            </div>
+          <div class="col-5">
+            <img
+              id="doura2"
+              class="position-absolute"
+              src="/image-slide/Frame 46.png"
+            />
+             <img id="product-img-slide2" src="/image-slide/kl 1.png" />
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+              id="img-slide1"
+              src="/image-slide/Rectangle 9.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div
+              class="carousel-caption d-none d-md-block text-dark text-start  col-7"
+            >
+              <div id="carousel-item-text">
+                <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              
+              <button type="button" class="btn btn-outline-secondary">Buy now</button>
+              <button type="button" class="btn btn-outline-secondary"><a href="/category-clothes.html">View Category</a></button>
+              </div>
+              
+            </div>
+          <div class="col-5">
+            <img
+              id="doura1"
+              class="position-absolute"
+              src="/image-slide/Ellipse 1.svg"
+            />
+            <img id="line1" class="position-absolute" src="/image-slide/Line 1.jpg"/>
+            <img id="product-img-slide3" src="/image-slide/cd6542bb05fbd98bc8f93a32b7c23404.jpg" />
+            
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev" 
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next" 
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+        <span class="visually-hidden" >Next</span>
+      </button>
+    </div>
+
+    <div id="Categories" class="category-container">
+      <h1 id="section-title">Categories</h1>
+      <div class="row-4  text-center ">
+        <a href="./category-clothes.html"><img src="/landingpage.images/Group 15.png" /></a> 
+        <a href="./category-pottery.html"><img src="/landingpage.images/Group 13.png" /></a>
+        <a href="/category-food.html"><img src="/landingpage.images/Group 14.png" /></a>
+      </div>
+      <div class="row-4 text-center mt-4">
+        <a href="/Category-painting.html"><img src="/landingpage.images/Group 16.png" /></a>
+        <a href="/category-accessories.html"><img src="/landingpage.images/Group 17.png" /></a>
+        <a href="/category-decoration.html"><img src="/landingpage.images/Group 18.png" /></a>
+      </div>
+    </div>
+
+    
+
+
+
+
+    <div id="new-products">
+      <h1 id="section-title">New Products</h1>
+      
+    <div
+    id="carouselExampleCaptions2"
+    class="carousel slide mb-5 mt-5""
+    data-bs-ride="carousel"
+  >
+
+    <div id class="carousel-inner position-relative">
+      <div class="carousel-item active">
+        <div id="new-product-slide" class="row">
+          
+          <div  id="new-product-card" class="card text-center max-auto offset-md-1">
+            <img id="new-product-images" src="/landingpage.images/new.product.cards/9c28ca97aab6d70e25ea0baad5a721f8.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center ms-4">
+              <h5 class="card-title ">Maoun</h5>
+              <p class="card-text text-muted">Decoration</p>
+              <h6 class=" text-muted">120DT</h6>
+            </div>
+          </div>
+          <div  id="new-product-card" class="card offset-md-1 text-center ">
+            <img id="new-product-images" src="/landingpage.images/new.product.cards/11053412a8eed08aab6b821b05db5384.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center ms-4">
+              <h5 class="card-title">Sefsery</h5>
+              <p class="card-text text-muted">Paintings</p>
+              <h6 class=" text-muted">100DT</h6>
+            </div>
+          </div>
+          
+          <div  id="new-product-card" class="card offset-md-1 text-center ">
+            <img id="new-product-images" src="/landingpage.images/new.product.cards/026e88cc4ffb48235eacb632c9625c49.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-body text-center ms-4">
+              <h5 class="card-title">khomsa</h5>
+              <p class="card-text text-muted">Accessoires</p>
+              <h6 class=" text-muted">70DT</h6>
+            </div>
+          </div>
+           
+          <div  id="new-product-card" class="card offset-md-1 text-center " >
+            <img id="new-product-images" src="/landingpage.images/new.product.cards/Frame 13.png" class="card-img-top rounded" alt="...">
+            <div class="card-body text-center ms-4">
+              <h5 id="new-product-card-title" class="card-title" >Zarbeyet el bey</h5>
+              <p class="card-text text-muted">Decoration</p>
+              <h6 class=" text-muted">200DT</h6>
+            </div>
+          </div>
+          
+      
+          
+        </div>
+      </div>
+      <div class="carousel-item" style=" overflow-x: hidden;">
+        <div id="new-product-slide" class="row">
+          
+          <div  id="new-product-card" class="card offset-md-1 text-center ">
+            <img id="new-product-images" src="/landingpage.images/new.product.cards/Frame 14.png" class="card-img-top" alt="...">
+            <div class="card-body text-center ms-4">
+              <h5 class="card-title">Tebsy</h5>
+              <p class="card-text text-muted">Pottery</p>
+              <h6 class=" text-muted">90DT</h6>
+            </div>
+          </div>
+          <div  id="new-product-card" class="card offset-md-1 text-center ">
+            <img id="new-product-images" src="/landingpage.images/new.product.cards/Frame 15.png" class="card-img-top" alt="...">
+            <div class="card-body text-center ms-4">
+              <h5 class="card-title w-100">thraya</h5>
+              <p class="card-text text-muted">Decoration</p>
+              <h6 class=" text-muted">300DT</h6>
+            </div>
+          </div>
+          
+          <div  id="new-product-card" class="card offset-md-1 text-center ">
+            <img id="new-product-images" src="/landingpage.images/new.product.cards/b4bc2c175d5f47877e57689ff4e5f65e.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center ms-4">
+              <h5 class="card-title">Maoun</h5>
+              <p class="card-text text-muted">Decoration</p>
+              <h6 class=" text-muted">120DT</h6>
+            </div>
+          </div>
+          <div  id="new-product-card" class="card offset-md-1 text-center ">
+            <img id="new-product-images" src="/landingpage.images/new.product.cards/4e21658b230bd91324790b602b2a8c69.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center ms-4 ">
+              <h5 class="card-title">Maoun</h5>
+              <p class="card-text text-muted">Decoration</p>
+              <h6 class=" text-muted">120DT</h6>
+            </div>
+          </div>
+      </div>
+    
+    </div>
+    <button
+      class="carousel-control-prev" 
+      type="button"
+      data-bs-target="#carouselExampleCaptions2"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next" 
+      type="button"
+      data-bs-target="#carouselExampleCaptions2"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+      <span class="visually-hidden" >Next</span>
+    </button>
+  </div>
+    </div>
+    
+    
+    </div>
+
+
+
+
+  
+
+    <div class="testimonials" style=" overflow-x: hidden;">
+      <h1 id="testimonials-title">Testimonials</h1>
+      
+      <img id="testimonials-img1" src="/landingpage.images/unnamed 1.svg">
+      <img id="testimonials-img2" src="/landingpage.images/pngfind 1.svg">
+      <div id="testimonial1" class="testimonial">
+        <p>&ldquo;Amazing website , i couldn't find hrissa arby anywhere but with the help of ZEMNI i can finally spice up my famous Ejja&bdquo;</p>
+        <h5 class="text-muted">-Elon Musk</h5>
+      </div>
+      
+      <div id="testimonial2" class="testimonials">
+        <p>My wife has been wanting a new authentic kairouanian Carpet and ZEMNI delivered , Highly recommend am definetly investing my microsoft money in this</p>
+        <h5 class="text-muted">-Bill Gates</h5>  
+      </div>
+        
+    </div>
+
+<!---------------------FOOTER------------------------------>
+<footer class="  text-dark" style="background-color: #F8EFE7;">
+  <div class="container p-4">
+   
+      <section class="mb-5 ">
+        <h1>ZEMNI</h1>
+        
+      </section>
+     
+      <section class="w-100">
+        <!--Grid row-->
+        <div class="row">
+          <div class="col-md-2">
+            <div>
+              <a class="btn btn-outline-dark btn-floating me-3 mb-2" href="#!" role="button">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              Facebook
+            </div>
+          
+           <div>
+              <a class="btn btn-outline-dark btn-floating me-3 mb-2" href="#!" role="button">
+               <i class="fab fa-instagram"></i>
+              </a>
+              Instagram
+           </div>
+
+           <div>
+              <a class="btn  btn-floating me-3 mb-2" href="#!" role="button">
+                <i class="fab fa-google"></i>
+              </a>
+              Google
+           </div>
+
+           <div>
+           <a class="btn btn-outline-dark btn-floating me-3 mb-2" href="#!" role="button">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          Linkedin
+          </div>
+
+          </div>
+          <div class="col-md-5">
+            <div class="about mt-4">
+              <h5>
+               <b>About Us</b><br>
+               <div class="text-muted">
+                ZEMNI is an artisinal marketplace in which the user can buy <br> and is given the option to sell traditional products, summed in six categories :<br> 
+                Clothes, Pottery, Food, Paintings, Accessories and Decoration. </div>
+                </h5>
+             </div>
+          </div>
+          
+          <div class="col-2 ms-5" id="mobile-zemni-phone"> <img src="/Frame 45.png"></div>
+        </div>
+        <div id="footer-space" class="row">
+          
+          <div class=" text-start mt-5  ">
+            
+           <a class="btn btn-outline-dark btn-floating me-1 mb-2" href="#!" role="button">
+            <i class="fab fa-facebook-messenger"></i>
+          </a>
+          <a class="btn btn-outline-dark btn-floating me-3 mb-2" href="#!" role="button">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          
+          
+        
+            <b>Contact us : </b> info@ZEMNI.com
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1);">
+      Copyrights<b>©</b>2021.ZEMNI </div>
+    <!-- Copyright -->
+  </footer>
+
+<!---------------------FOOTER------------------------------>
+
+
+
+<div class="signin">
+  <div class="cont">
+    <div id="closebox">
+      x
+    </div>
+    <div class="form sign-in">
+      
+      <h2 id="login-title">Login</h2>
+      <div class="google">
+        <button class="Login-google">
+          <i class="fab fa-google"></i>
+          Log in with google
+        </button>
+      </div>
+      <div class="horizontal-login">
+        <h4>Or</h4>
+      </div>
+      <div class="formulaire-login">
+        <form action="#">
+          <div class="case">
+            <div>
+              <input
+                id="ema"
+                class="emai"
+                type="text"
+                placeholder="Username"
+              />
+            </div>
+
+            <div>
+              <input class="emai" type="email" placeholder="Email" />
+            </div>
+            <div>
+              <input class="emai" type="password" placeholder="Password" />
+            </div>
+          </div>
+
+          <input type="submit" value="Log in to Account" class="crea" />
+        </form>
+      </div>
+      
+    </div>
+    <div class="sub-cont">
+      
+      <div class="img">
+        <div class="img__btn">
+          <span class="m--up">Sign Up</span>
+          <span class="m--in">Sign In</span>
+        </div>
+        
+      </div>
+      <div id="form-sign-up" class="form sign-up">
+        <h2 id="signup-title">Sign up</h2>
+        <div id="text-style" class="container_1">
+          <div class="left-part">
+            <div class="avant_form">
+              <div class="google">
+                <button class="glg">
+                  <i class="fab fa-google"></i>
+                  Sign up with google
+                </button>
+              </div>
+              <div class="horizontal">
+                <h4>Or</h4>
+              </div>
+            </div>
+
+            <div class="formulaire">
+              <form action="#">
+                <div class="case">
+                  <div class="name">
+                    <input class="n1" type="text" placeholder="FullName" />
+                    <input class="n2" type="text" placeholder="Username" />
+                  </div>
+                  <div>
+                    <input class="email" type="email" placeholder="Email" />
+                  </div>
+                  <div>
+                    <input
+                      class="password"
+                      type="password"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      class="confpass"
+                      type="password"
+                      placeholder="Confirm Password"
+                    />
+                  </div>
+                </div>
+
+             
+                <div class="checkbox">
+                  <input type="checkbox" id="chbx" />
+                  <label id="label" for="chbx"
+                    >Creating an account means you’re okay with our
+                    <span class="rouge">Terms of Service</span>,
+                    <span class="rouge">Privacy Policy</span>, and our
+                    default
+                    <span class="rouge">Notification Settings</span>.</label
+                  >
+                </div>
+                <input
+                  type="submit"
+                  value="Create Account"
+                  class="create"
+                />
+              </form>
+            </div>
+          </div>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+<script src="dist/smooth-scrollbar.js"></script>
+
+<script>
+  var Scrollbar = window.Scrollbar;
+
+  Scrollbar.init(document.querySelector('#my-scrollbar'));
+</script>
+
+<script>
+  document.getElementById("login-button").addEventListener("click", function () {
+  document.querySelector(".signin").style.display = "flex";
+});
+document.getElementById("closebox").addEventListener("click", function () {
+  document.querySelector(".signin").style.display = "none";
+});
+
+  document
+    .querySelector(".img__btn")
+    .addEventListener("click", function () {
+      document.querySelector(".cont").classList.toggle("s--signup");
+    });
+</script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  outline: none;
+}
+
+body {
+  background-color: #f7f9f9;
+  overflow-x: hidden;
+}
+
+#img {
+  height: 150px;
+}
+
+#navul {
+  margin-left: 45%;
+  margin-top: -13px;
+}
+#navul img {
+  width: 25px;
+  margin-left: 10px;
+}
+#navsearch {
+  height: 20px;
+}
+#sell-icon {
+  height: 17px;
+  margin-top: -5px;
+}
+
+.home-section {
+  padding: 250px 0 300px;
+  margin-left: 150px;
+}
+
+.home-section .content h1 {
+  font-size: 55px;
+}
+.home-section .content p {
+  font-size: 20px;
+}
+.home-section .content button {
+  background: #ffe8d3;
+  border-radius: 33px;
+  border: none;
+  color: black;
+  width: 150px;
+  display: inline;
+  padding: 10px 0px 10px 0px;
+}
+.home-section .content button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.home-section .logo-img img {
+  margin-top: -100px;
+  filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.5));
+}
+#img-slide1 {
+  width: 285px;
+  height: 600px;
+}
+
+#doura1 {
+  height: 500px;
+  top: 10px;
+  left: 70%;
+}
+#product-img-slide1 {
+  position: absolute;
+  width: 400px;
+  top: 100px;
+  left: 60%;
+}
+#line1 {
+  position: absolute;
+  top: 100px;
+  left: 60%;
+  margin-top: 300px;
+  width: 1000px;
+}
+#doura2 {
+  height: 600px;
+  top: 0px;
+  left: 0%;
+}
+#product-img-slide2 {
+  border-radius: 10px;
+  position: absolute;
+  width: 300px;
+  top: 75px;
+  left: 20%;
+}
+#line2 {
+  position: absolute;
+  top: 40px;
+  margin-left: 73px;
+}
+#product-img-slide3 {
+  position: absolute;
+  width: 270px;
+  top: 75px;
+  left: 60%;
+}
+#carousel-item-text {
+  margin-bottom: 200px;
+  width: 550px;
+}
+#carousel-item-text h5 {
+  font-size: 40px;
+}
+#carousel-item-text button {
+  margin-bottom: 0px;
+}
+
+#carousel-item-text2 {
+  margin-bottom: 200px;
+  margin-left: 700px;
+  width: 550px;
+}
+#carousel-item-text2 h5 {
+  font-size: 40px;
+}
+#carousel-item-text2 button {
+  margin-bottom: 0px;
+}
+
+#card-price {
+  margin-top: 30px;
+  color: #6d8dca;
+  font-size: small;
+  font-weight: bold;
+}
+#btn-card {
+  width: 170px;
+  background: none;
+  border-radius: 20px;
+  padding: 5px 30px 5px 30px;
+  margin: 20px 0px 0px 25px;
+  color: #6d8dca;
+  border-color: #6d8dca;
+
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+}
+#btn-card:hover {
+  background: #6d8dca;
+  color: aliceblue;
+}
+#card {
+  border: none;
+  background: none;
+}
+#description {
+  font-size: 14px;
+}
+
+#card-title {
+  font-size: 24px;
+}
+
+.category-container {
+  padding-top: 35px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.category-container img {
+  width: 250px;
+  margin-left: 20px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.category-container img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 20px 19px rgba(65, 65, 65, 0.7));
+}
+#new-products {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+#section-title {
+  color: #3c4f78;
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+}
+#new-product-carousel-background {
+  background: rgb(196, 205, 205);
+  background: linear-gradient(
+    90deg,
+    rgba(196, 205, 205, 1) 0%,
+    rgba(255, 190, 190, 1) 100%
+  );
+}
+#new-product-slide {
+  margin-left: 10px;
+}
+#new-product-card {
+  width: 200px;
+  border: none;
+  background: none;
+}
+#new-product-images {
+  width: 200px;
+  height: 300px;
+  align-items: center;
+}
+#new-product-card-title {
+  width: 150px;
+  text-align: center;
+}
+#Mobile {
+  margin: 50px 0px 50px 0px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f8efe7;
+  height: 100%;
+  width: 100%;
+}
+#mobile-zemni-phone {
+  position: absolute;
+  top: 4400px;
+  left: 1000px;
+}
+#mobile-zemni-description {
+  width: 500px;
+  margin-top: 175px;
+  margin-left: 200px;
+}
+.testimonials {
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+#testimonials-title {
+  color: #3c4f78;
+  margin: 0px 0px 0px 150px;
+}
+#testimonials-img1 {
+  position: absolute;
+  top: 3100px;
+  left: 68%;
+}
+#testimonials-img2 {
+  position: absolute;
+  top: 3500px;
+  right: 70%;
+}
+.testimonials p {
+  font-size: 25px;
+  width: 500px;
+  text-align: center;
+}
+#testimonial1 {
+  margin: 250px 0px 0px 300px;
+}
+#testimonial2 {
+  margin: 200px 0px 0px 650px;
+}
+.testimonials h5 {
+  margin-left: 350px;
+}
+
+.signin {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-space {
+  margin-top: 50px;
+}
+#navul input {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: rgb(170, 170, 170);
+  font-size: 15px;
+}

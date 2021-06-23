@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  outline: none;
+}
+body {
+  background-color: #f7f9f9;
+  overflow-x: hidden;
+}
+
+#navul {
+  margin-left: 47%;
+  margin-top: -13px;
+}
+#navul img {
+  width: 25px;
+  margin-left: 10px;
+}
+#navsearch {
+  height: 20px;
+}
+#sell-icon {
+  height: 17px;
+  margin-top: -5px;
+}
+
+.left-part {
+  margin: 3rem;
+  width: 100%;
+}
+.right-part {
+  margin-top: 5rem;
+  width: 60%;
+}
+.right-part .prix {
+  color: #6d8dca;
+  font-weight: 800;
+  font-size: 22px;
+  width: 100%;
+}
+.right-part h2 {
+  color: #474753;
+  font-size: 33px;
+  margin-top: 10px;
+  width: 100%;
+}
+.right-part p {
+  margin-top: 2rem;
+  color: #81808d;
+  width: 100%;
+}
+.carreau {
+  display: flex;
+  width: 100%;
+  max-width: 1115px;
+  max-height: 691px;
+  background: #e8e8ff;
+  border-bottom-left-radius: 46px;
+  border-bottom-right-radius: 46px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 0.7rem 2.2rem;
+  border: none;
+  margin: 5rem;
+  font-weight: 600;
+  font-size: 11px;
+  box-shadow: 0px 8px 15px rgb(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #474753;
+  color: #fff;
+}
+#card-price {
+  margin-top: 30px;
+  color: #6d8dca;
+  font-size: small;
+  font-weight: bold;
+}
+#btn-card {
+  width: 170px;
+  background: none;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin: 20px 0px 0px 25px;
+  color: #6d8dca;
+  border-color: #6d8dca;
+
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+}
+#btn-card:hover {
+  background: #6d8dca;
+  color: aliceblue;
+}
+#card {
+  border: none;
+  background: none;
+}
+#description {
+  font-size: 14px;
+}
+
+#card-title {
+  font-size: 24px;
+}
+#image {
+  height: 265px;
+  width: 208px;
+  filter: drop-shadow(0px 20px 19px rgba(0, 0, 0, 0.25));
+}
+
+#filter-button {
+  margin-top: -50px;
+  margin-left: 620px;
+  font-size: medium;
+}
+#filter-content {
+  width: 1000px;
+  margin-left: 250px;
+}
+.line {
+  width: 900px;
+  height: 1px;
+  background-color: #81808d;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+#pagination {
+  margin-top: 100px;
+  border: none;
+  color: #474753;
+}
+#pagination ul li {
+  border: none;
+  color: #474753;
+}
+/*********************************************************/
+h5 a {
+  text-decoration: none;
+}
+h5 a:visited {
+  color: #000;
+}
+
+#content-filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+#price-range input {
+  width: 100px;
+}
+
+#search-input {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: rgb(170, 170, 170);
+  font-size: 15px;
+}

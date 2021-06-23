@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 829px;
+    font-family: sans-serif;
+    margin: 50px  auto;
+    padding: 20px;
+    background-color: #ffe8d3;
+    
+  }
+  
+  .BBB {
+    margin-top: 0;  
+  }
+  
+  .my-form {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  #gallery {
+    margin-top: 10px;
+    text-align: center;
+  }
+  #gallery img {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .button {
+    display: inline;
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #fileElem {
+    display: none;
+  }
+  

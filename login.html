@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/singin.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cont">
+      <div class="form sign-in">
+        <h2 id="login-title">Login</h2>
+        <div class="google">
+          <button class="Login-google">
+            <i class="fab fa-google"></i>
+            Log in with google
+          </button>
+        </div>
+        <div class="horizontal-login">
+          <h4>Or</h4>
+        </div>
+        <div class="formulaire-login">
+          <form action="#">
+            <div class="case">
+              <div>
+                <input
+                  id="ema"
+                  class="emai"
+                  type="text"
+                  placeholder="Username"
+                />
+              </div>
+
+              <div>
+                <input class="emai" type="email" placeholder="Email" />
+              </div>
+              <div>
+                <input class="emai" type="password" placeholder="Password" />
+              </div>
+            </div>
+
+            <input type="submit" value="Log in to Account" class="crea" />
+          </form>
+        </div>
+      </div>
+      <div class="sub-cont">
+        <div class="img">
+          <div class="img__btn">
+            <span class="m--up">Sign Up</span>
+            <span class="m--in">Sign In</span>
+          </div>
+        </div>
+        <div class="form sign-up">
+          <h2 id="signup-title">Sign up</h2>
+          <div id="text-style" class="container_1">
+            <div class="left-part">
+              <div class="avant_form">
+                <div class="google">
+                  <button class="glg">
+                    <i class="fab fa-google"></i>
+                    Sign up with google
+                  </button>
+                </div>
+                <div class="horizontal">
+                  <h4>Or</h4>
+                </div>
+              </div>
+
+              <div class="formulaire">
+                <form action="#">
+                  <div class="case">
+                    <div class="name">
+                      <input class="n1" type="text" placeholder="FullName" />
+                      <input class="n2" type="text" placeholder="Username" />
+                    </div>
+                    <div>
+                      <input class="email" type="email" placeholder="Email" />
+                    </div>
+                    <div>
+                      <input
+                        class="password"
+                        type="password"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        class="confpass"
+                        type="password"
+                        placeholder="Confirm Password"
+                      />
+                    </div>
+                  </div>
+
+               
+                  <div class="checkbox">
+                    <input type="checkbox" id="chbx" />
+                    <label for="chbx"
+                      >Creating an account means you’re okay with our
+                      <span class="rouge">Terms of Service</span>,
+                      <span class="rouge">Privacy Policy</span>, and our
+                      default
+                      <span class="rouge">Notification Settings</span>.</label
+                    >
+                  </div>
+                  <input
+                    type="submit"
+                    value="Create Account"
+                    class="create"
+                  />
+                </form>
+              </div>
+            </div>
+        </div>
+        <div class="closebox">
+          <i class="fas fa-times "></i>X
+        </div>
+      </div>
+    </div>
+    <script>
+      document
+        .querySelector(".img__btn")
+        .addEventListener("click", function () {
+          document.querySelector(".cont").classList.toggle("s--signup");
+        });
+    </script>
+  </body>
+</html>
